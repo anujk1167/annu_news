@@ -8,10 +8,7 @@ A Flutter-based news application with custom splash screen and modern UI.
 - Beautiful UI with date formatting
 - Works on Android, iOS, and Web (if enabled)
 
-## Screenshots
-(You can add screenshots later)
-
 ## How to Run
-clone the repo 
-flutter pub get
+clone the repo ,
+flutter pub get ,
 flutter run
