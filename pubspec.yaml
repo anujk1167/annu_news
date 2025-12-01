@@ -1,0 +1,52 @@
+name: annu_news
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0-290.1.beta
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http:
+  webview_flutter:
+  rename:
+  url_launcher:
+  webview_all:
+  web:
+  webview_flutter_web:
+  intl:
+  share_plus:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.2.20
+  flutter_launcher_icons: ^0.13.1
+
+# ----- App Icons -----
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/img/logo.png"
+
+# ----- Splash Screen -----
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/img/logo.png
+  android: true
+  ios: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/img/logo.png
+    - assets/img/error_placeholder.png
